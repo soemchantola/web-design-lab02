@@ -1,0 +1,42 @@
+.main {
+  display: grid;
+  background: 1000% whitesmoke;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1000px;
+}
+.item {
+  grid-column: span 3;
+}
+.b img {
+  width: 90px;
+  height: 70px;
+  border-radius: 50%;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.menu h4{
+  text-align: center;
+  flex-grow: 1;
+}
+
+.menu img{
+  width: 30px;
+  height: 30px;
+  flex-grow: 0;
+}
+
+
+.left-side {
+  border: 2px solid black;
+}
+.center-side {
+  display: grid;
+}
+.right-side {
+  display: grid;
+}

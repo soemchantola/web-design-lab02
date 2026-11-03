@@ -1,0 +1,356 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.left-side{
+    padding-left: 10px;
+    cursor: pointer;
+}
+.a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.b{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.item{
+    display: flex;
+    flex-direction: row;
+}
+.f{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border: radius 5px;
+    background: whitesmoke;
+}
+.d{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+.e{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    padding-left: 10px;
+}
+.c{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: yellowgreen;
+}
+.g{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 10px;
+}
+.h{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    gap: 1rem;
+}
+.center-side{
+    display: flex;
+    flex-direction: column;
+    
+}
+.i{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.i img{
+    border-radius: 50%;
+}
+.j{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 190px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.j1{
+    display: flex;
+    color: white;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px black;
+
+}
+.j2{
+    display: flex;
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px black;
+}   
+.h1 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    margin-left: 50px;
+    background-color: red;
+    box-shadow: 0 2px 4px black;
+     
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.k{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.l{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.l img{
+    border-radius: 50%;
+
+}
+.l1{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 90px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 4px black;
+}
+.l2{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 70px;
+    align-items: center;
+    height: 20px;
+    background: red;
+    cursor: pointer;
+    box-shadow: 0 2px 4px black;
+
+
+    justify-content: center;
+}
+
+.m{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.m1{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 90px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    margin-left: 25px;
+    box-shadow: 0 2px 4px black;
+
+}
+.m2{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 70px;
+    align-items: center;
+    height: 20px;
+    background: red;
+    cursor: pointer;
+
+    justify-content: center;
+    box-shadow: 0 2px 4px black;
+    
+}
+.m img{
+    border-radius: 50%;
+}
+.n img{
+    border-radius: 50%;
+}
+.n{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.n1{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 90px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    margin-left: 25px;
+    box-shadow: 0 2px 4px black;
+    
+
+}
+.n2{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 70px;
+    align-items: center;
+    height: 20px;
+    background: red;
+    cursor: pointer;
+
+    justify-content: center;
+    box-shadow: 0 2px 4px black;
+
+
+}
+
+.o{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+}
+.o img{
+    border-radius: 50%;
+}
+.o1{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 90px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    box-shadow: 0 2px 4px black;    
+}
+.o2{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 70px;
+    align-items: center;
+    height: 20px;
+    background: red;
+    cursor: pointer;
+
+    justify-content: center;
+    box-shadow: 0 2px 4px black;
+
+}
+.p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;    
+}
+.p img{
+    border-radius: 50%;
+}
+.p1{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 90px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 4px black;  
+    margin-left: 20px;   
+}
+.p2{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 70px;
+    align-items: center;
+    height: 20px;
+    background: red;
+    cursor: pointer;
+
+    justify-content: center;
+    box-shadow: 0 2px 4px black;    
+}
+.haha1 img{
+    border-radius: 10px ;
+}
+.haha{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+.haha2 img{
+    border-radius: 10px;
+}
+
+
